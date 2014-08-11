@@ -1,22 +1,4 @@
-	body {
-		color: white;
-		font-family: sans-serif;
-		font-size: 15pt;
-		font-weight: 300 !important;
-		letter-spacing: -0.025em;
-		line-height: 1.75em;
-		text-align: center;
-		background-image: url(../img/bg.jpg);
-		background-repeat: no-repeat; 
-		background-position: center;
-		background-attachment: fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover; 		
-		}
-		
-	.centered {
+	#centered {
 		left: 0;
 		line-height: 10px;
 		margin: auto;
@@ -24,4 +6,62 @@
 		position: absolute;
 		top: 50%;
 		width: 100%;
+		text-align: center;
+		color: white;
+		font-family: sans-serif;
+		font-size: 15pt;
+		font-weight: 300 !important;
+		letter-spacing: -0.025em;
+		line-height: 1.75em;
 	}
+	#text_blurb {
+		color: gray;
+		margin-top: 0;
+		font-size: 12px;
+		
+	}
+	
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline;
+		padding: 0px 15px;
+	}
+	
+	#web_button {
+		background-color: green;
+		height: 30px;
+		width: 115px;
+		font-size: 18px;
+		display:inline-block;
+		text-align: center;
+		font-family: "Arial", "Verdana", Sans-Serif;
+	}
+	
+	#nav_bar {
+		width: 100%;
+		height: 30px;
+		font-size: 18px;
+		background-color: blue;
+		display:inline-block;
+		text-align: left;
+		font-family: "Arial", "Verdana", Sans-Serif;
+	
+	}
+	
+	#rightNav {
+	text-align: right;
+	float: right;
+	
+	}
+	
+
+	
+	a:link {text-decoration: none; }
+	a:visited { color: white; text-decoration: none; }
+	a:hover { color: blue; text-decoration: none; }
